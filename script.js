@@ -11,7 +11,8 @@ form.addEventListener('submit', function (e) {
   const weightGuide=document.querySelector('#weight-guide');
   const btn=document.querySelector('.btn');
   function handleClick(){
-    window.location.reload();
+    // window.location.reload();
+     history.go(0);
   }
   btn.addEventListener('click', handleClick);
 
